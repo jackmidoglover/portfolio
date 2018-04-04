@@ -54,6 +54,7 @@ h1 {
 .connect {
     width: 65px;
     height: 65px;
+    margin-bottom: 30px;
 }
 .divider {
     border: 1px solid #C46607;
