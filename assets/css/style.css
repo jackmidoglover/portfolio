@@ -18,7 +18,8 @@ a:hover{
     color: #C46607;
 }
 .page-footer {
-    background: linear-gradient(black 66%, #C46607 100%);
+    background-color: black;
+    border-top: 6px solid #C46607;
 }
 
 main {
@@ -53,4 +54,7 @@ h1 {
 .connect {
     width: 65px;
     height: 65px;
+}
+.divider {
+    border: 1px solid #C46607;
 }
