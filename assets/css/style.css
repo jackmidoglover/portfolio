@@ -2,8 +2,28 @@ body {
     background-image: url("../images/nightsky.jpg");
     background-color: black;
     color: white;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
 }
 
+nav {
+    background-color: black;
+    margin-bottom: 30px;
+}
+li:hover {
+    background-color: #1F1E1E;
+}
+a:hover{
+    color: #C46607;
+}
+.page-footer {
+    background: linear-gradient(black 66%, #C46607 100%);
+}
+
+main {
+    flex: 1 0 auto;
+  }
 header {
     /* padding: 80px; */
     background-image: url(../images/bloodmoon.jpg);
@@ -14,7 +34,6 @@ header {
     padding-bottom: 63px;
     padding-top: 35px;
     background-repeat: no-repeat;
-    margin-bottom: 40px;
 }
 
 h1 {
@@ -26,7 +45,12 @@ h1 {
     font-family: 'Josefin Sans', sans-serif;
 }
 
-.col {
-    background-color: black;
+.tables {
+    background-color:rgba(0,0,0,0.7);
     height: 100%;
+}
+
+.connect {
+    width: 65px;
+    height: 65px;
 }
