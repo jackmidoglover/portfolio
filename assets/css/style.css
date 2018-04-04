@@ -1,0 +1,32 @@
+body {
+    background-image: url("../images/nightsky.jpg");
+    background-color: black;
+    color: white;
+}
+
+header {
+    /* padding: 80px; */
+    background-image: url(../images/bloodmoon.jpg);
+    background-position: center;
+    background-size: 55%;
+    background-color: black;
+    border-bottom: 1px solid white;
+    padding-bottom: 63px;
+    padding-top: 35px;
+    background-repeat: no-repeat;
+    margin-bottom: 40px;
+}
+
+h1 {
+    border: solid 4px white;
+    width: 40%;
+    font-size: 85px;
+    margin: 0 auto;
+    padding: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.col {
+    background-color: black;
+    height: 100%;
+}
