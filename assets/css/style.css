@@ -6,6 +6,8 @@ body {
     height: auto;
     background-image: url("../images/nightsky.jpg");
     background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
     color: white;
     display: flex;
     min-height: 100vh;
