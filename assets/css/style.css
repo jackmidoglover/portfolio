@@ -4,14 +4,23 @@ html {
 
 body {
     height: auto;
-    background-image: url("../images/nightsky.jpg");
-    background-color: black;
-    background-repeat: no-repeat;
-    background-size: cover;
+    /* background-image: url("../images/nightsky.jpg"); */
+    background: url('../images/stars2.png') no-repeat left bottom, 
+    linear-gradient(to bottom left, #000000, #23143b);
+    /* background-color: black; */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
     color: white;
     display: flex;
     min-height: 100vh;
     flex-direction: column;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+}
+
+h2, h3, h4 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
 }
 #name, #email, #textarea {
     color: white;
@@ -57,6 +66,10 @@ header {
     background-repeat: no-repeat;
 }
 
+footer {
+    padding: 30px;
+}
+
 h1 {
     border: solid 4px white;
     width: 40%;
@@ -64,10 +77,11 @@ h1 {
     margin: 0 auto;
     padding: 30px;
     font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
 }
 
 .tables {
-    background-color:rgba(0,0,0,0.7);
+    background-color:rgba(0,0,0);
     height: 100%;
 }
 
