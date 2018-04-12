@@ -118,4 +118,9 @@ header {
 tables {
     background-color: #000000;
 }
+
+.portrait {
+    position: relative;
+    left: 25%;
+}
     }
