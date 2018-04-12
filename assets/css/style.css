@@ -49,6 +49,11 @@ a:hover{
 .page-footer {
     background-color: black;
     border-top: 6px solid #C46607;
+    padding: 0;
+}
+
+a{
+    color: white;
 }
 
 main {
@@ -66,9 +71,6 @@ header {
     background-repeat: no-repeat;
 }
 
-footer {
-    padding: 30px;
-}
 span {
     font-weight: bold;
 }
@@ -88,6 +90,11 @@ h1 {
     height: 100%;
 }
 
+.portrait {
+    width: 150px;
+    height: 150px;
+}
+
 .connect {
     width: 65px;
     height: 65px;
@@ -101,7 +108,7 @@ h1 {
 h1 {
     border: solid 4px white;
     width: 90%;
-    font-size: 431%;
+    font-size: 389%;
 }
 header {
     background-size: 127%;
