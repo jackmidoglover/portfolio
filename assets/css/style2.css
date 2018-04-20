@@ -57,6 +57,10 @@
     background-image: url("../images/liri.png");
     background-size: cover;
 }
+#h {
+    background-image: url("../images/CLIgame.png");
+    background-size: cover;
+}
 
 /* Image Banners */
 .banner {
