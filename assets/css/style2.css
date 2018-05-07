@@ -65,6 +65,10 @@
     background-image: url("../images/sql-homework.png");
     background-size: cover;
 }
+#k {
+    background-image: url("../images/friendfinder.png");
+    background-size: cover;
+}
 
 /* Image Banners */
 .banner {
