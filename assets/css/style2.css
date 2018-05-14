@@ -69,6 +69,10 @@
     background-image: url("../images/friendfinder.png");
     background-size: cover;
 }
+#l {
+    background-image: url("../images/burgerapp.png");
+    background-size: cover;
+}
 
 /* Image Banners */
 .banner {
